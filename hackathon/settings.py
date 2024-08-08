@@ -31,7 +31,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'drf_yasg',
     'accounts.apps.AccountsConfig',
-    'test.apps.TestConfig'
+    'test.apps.TestConfig',
+    'homepage.apps.HomepageConfig'
 ]
 
 MIDDLEWARE = [
